@@ -1,0 +1,16 @@
+body {
+  font-family: "Yuji Mai", serif;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Yuji Syuku", serif;
+  margin-bottom: 0;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}

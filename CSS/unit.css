@@ -1,0 +1,61 @@
+section {
+  background-color: grey;
+  width: 400px;
+  height: 800px;
+}
+
+div {
+  background-color: hotpink;
+  width: 50%;
+  height: 20%;
+}
+
+h1 {
+  font-size: 40px;
+  border: 1px solid black;
+  line-height: 200%; /* 200% of font siz, which is 80px */
+}
+
+h2 {
+  font-size: 2em; /* twice the parent's font size, which is 60px */
+  margin-left: 1em; /* same as font size of h2, which is 60 px*/
+}
+
+h3 {
+  font-size: 1.5em;
+}
+p {
+  font-size: 0.8em;
+}
+
+/* derive from parent */
+#ems {
+  font-size: 30px;
+}
+
+button {
+  font-size: 1em;
+  padding: 0 1em;
+  border-radius: 0.5em;
+}
+
+#ems ul {
+  font-size: 1.5em;
+}
+
+/* derive from the root's font size */
+#rems h2 {
+  font-size: 3rem;
+}
+
+#rems h3 {
+  font-size: 2rem;
+}
+
+#rems ul {
+  font-size: 1rem;
+}
+
+#rems button {
+  font-size: 1.5rem;
+}
